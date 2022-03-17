@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Game Programming &#8211; Welcome to my site!</title>
+	<atom:link href="/portfolio-category/game-programming/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Alex&#039;s Portfolio</description>
+	<lastBuildDate>Thu, 17 Mar 2022 15:31:10 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9.1</generator>
+	<item>
+		<title>Moon Rock Café</title>
+		<link>/portfolio/moon-rock-cafe/</link>
+		
+		<dc:creator><![CDATA[alvolex]]></dc:creator>
+		<pubDate>Wed, 23 May 2018 08:00:45 +0000</pubDate>
+				<guid isPermaLink="false">http://rarathemesdemo.com/perfect-portfolio/?post_type=rara-portfolio&#038;p=44</guid>
+
+					<description><![CDATA[Moon Rock Café is a fast-paced Overcooked inspired game where the player has to manage a lot of responsibilities in a space-restaurant. Your main goal is to juggle a lot of different tasks such as seating customers, taking their order &#38; making sure they don&#8217;t order something they&#8217;re allergic to, getting the orders to the &#8230; ]]></description>
+										<content:encoded><![CDATA[<p>Moon Rock Café is a fast-paced Overcooked inspired game where the player has to manage a lot of responsibilities in a space-restaurant. Your main goal is to juggle a lot of different tasks such as seating customers, taking their order &amp; making sure they don&#8217;t order something they&#8217;re allergic to, getting the orders to the kitchen and finally, when the food is ready, delivering that meal to the correct alien!</p>
+<h3>My responsibilities in the project</h3>
+<p>I wrote the code for the core game play loop in this game, another programmer was responsible for the audio manager and one programmer did the Upgrade system.</p>
+<p>My contributions:</p>
+<ul>
+<li>Player &amp; camera movement.</li>
+<li>Customer spawning, seating, order handling, kitchen logic, and food handling.</li>
+<li>Customer AI.</li>
+<li>Modular customer system that let us easily create different customer types in the editor using ScriptableObjects as building pieces.</li>
+<li>Tutorial system with scrolling tutorial text that respects line-breaks.</li>
+<li>ScriptableObject event system that can send events with generic data type(s).</li>
+</ul>
+<p>Link to github repo: <a href="https://github.com/alvolex/GP2Team10">https://github.com/alvolex/GP2Team10</a></p>
+<p> </p>
+<p> </p>
+
+
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped"></figure>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

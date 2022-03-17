@@ -2,7 +2,7 @@
 <html lang="en-US">
 	<head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Log In &lsaquo; Alex&#039;s Site &#8212; WordPress</title>
+	<title>Log In &lsaquo; Welcome to my site! &#8212; WordPress</title>
 	<meta name="robots" content="max-image-preview:large, noindex, noarchive">
 <link rel="dns-prefetch" href="//s.w.org">
 <link rel="stylesheet" id="dashicons-css" href="/wp-includes/css/dashicons.min.css?ver=5.9.1" type="text/css" media="all">
@@ -20,7 +20,7 @@
 		<div id="login">
 		<h1><a href="https://wordpress.org/">Powered by WordPress</a></h1>
 	
-		<form name="loginform" id="loginform" action="httpheeey.test/wp-login.php" method="post">
+		<form name="loginform" id="loginform" action="httpalex-portfolio.test/wp-login.php" method="post">
 			<p>
 				<label for="user_login">Username or Email Address</label>
 				<input type="text" name="log" id="user_login" class="input" value="" size="20" autocapitalize="off">
@@ -38,7 +38,7 @@
 						<p class="forgetmenot"><input name="rememberme" type="checkbox" id="rememberme" value="forever"> <label for="rememberme">Remember Me</label></p>
 			<p class="submit">
 				<input type="submit" name="wp-submit" id="wp-submit" class="button button-primary button-large" value="Log In">
-									<input type="hidden" name="redirect_to" value="httpheeey.test/wp-admin/">
+									<input type="hidden" name="redirect_to" value="httpalex-portfolio.test/wp-admin/">
 									<input type="hidden" name="testcookie" value="1">
 			</p>
 		</form>
@@ -51,13 +51,13 @@
 wp_attempt_focus();
 if ( typeof wpOnload === 'function' ) { wpOnload() }		</script>
 				<p id="backtoblog">
-			<a href="/">&larr; Go to Alex&#039;s Site</a>		</p>
+			<a href="/">&larr; Go to Welcome to my site!</a>		</p>
 			</div>
 			<script type="text/javascript" src="/wp-includes/js/jquery/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script>
 <script type="text/javascript" src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
 <script type="text/javascript" id="zxcvbn-async-js-extra">
 /*  */
-var _zxcvbnSettings = {"src":"httpheeey.test\/wp-includes\/js\/zxcvbn.min.js"};
+var _zxcvbnSettings = {"src":"httpalex-portfolio.test\/wp-includes\/js\/zxcvbn.min.js"};
 /*  */
 </script>
 <script type="text/javascript" src="/wp-includes/js/zxcvbn-async.min.js?ver=1.0" id="zxcvbn-async-js"></script>
@@ -90,7 +90,7 @@ var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
 <script type="text/javascript" src="/wp-includes/js/wp-util.min.js?ver=5.9.1" id="wp-util-js"></script>
 <script type="text/javascript" id="user-profile-js-extra">
 /*  */
-var userProfileL10n = {"user_id":"0","nonce":"b9254c126c"};
+var userProfileL10n = {"user_id":"0","nonce":"d39daecbd3"};
 /*  */
 </script>
 <script type="text/javascript" id="user-profile-js-translations">
