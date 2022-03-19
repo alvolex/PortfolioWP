@@ -12,7 +12,7 @@
 	<atom:link href="/portfolio-category/game-programming/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Alex&#039;s Portfolio</description>
-	<lastBuildDate>Thu, 17 Mar 2022 15:31:10 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 19 Mar 2022 15:53:25 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -24,28 +24,92 @@
 		<link>/portfolio/moon-rock-cafe/</link>
 		
 		<dc:creator><![CDATA[alvolex]]></dc:creator>
-		<pubDate>Wed, 23 May 2018 08:00:45 +0000</pubDate>
+		<pubDate>Fri, 18 Mar 2022 20:37:00 +0000</pubDate>
 				<guid isPermaLink="false">http://rarathemesdemo.com/perfect-portfolio/?post_type=rara-portfolio&#038;p=44</guid>
 
 					<description><![CDATA[Moon Rock Café is a fast-paced Overcooked inspired game where the player has to manage a lot of responsibilities in a space-restaurant. Your main goal is to juggle a lot of different tasks such as seating customers, taking their order &#38; making sure they don&#8217;t order something they&#8217;re allergic to, getting the orders to the &#8230; ]]></description>
-										<content:encoded><![CDATA[<p>Moon Rock Café is a fast-paced Overcooked inspired game where the player has to manage a lot of responsibilities in a space-restaurant. Your main goal is to juggle a lot of different tasks such as seating customers, taking their order &amp; making sure they don&#8217;t order something they&#8217;re allergic to, getting the orders to the kitchen and finally, when the food is ready, delivering that meal to the correct alien!</p>
+										<content:encoded><![CDATA[<p>Moon Rock Café is a fast-paced Overcooked inspired game where the player has to manage a lot of responsibilities in a space-restaurant. Your main goal is to juggle a lot of different tasks such as seating customers, taking their order &amp; making sure they don&#8217;t order something they&#8217;re allergic to, getting the orders to the kitchen and finally, when the food is ready, delivering that meal to the correct alien before the food goes bad!</p>
+<p>It might seem simple at first, but very soon you will find yourself overwhelmed by the vast amounts of aliens that find their way to this space-eatery!</p>
 <h3>My responsibilities in the project</h3>
-<p>I wrote the code for the core game play loop in this game, another programmer was responsible for the audio manager and one programmer did the Upgrade system.</p>
+<p>I wrote the code for the core game play loop in this game and a few other systems such as the tutorial system, spawning system, and day-cycle system, and UI programming (food progress, ordering, tutorial, over-head popups). This project was made with fellow Future Games students during a 3-week project.</p>
 <p>My contributions:</p>
 <ul>
 <li>Player &amp; camera movement.</li>
 <li>Customer spawning, seating, order handling, kitchen logic, and food handling.</li>
 <li>Customer AI.</li>
+<li>UI Code</li>
 <li>Modular customer system that let us easily create different customer types in the editor using ScriptableObjects as building pieces.</li>
-<li>Tutorial system with scrolling tutorial text that respects line-breaks.</li>
+<li>Tutorial system with scrolling tutorial text that respects line-breaks. System is event-based and highly flexible.</li>
 <li>ScriptableObject event system that can send events with generic data type(s).</li>
+<li>Upgradeable systems such as the possibility to cook more food at once, unlocking more tables in the restaurant, cooking faster, etc.</li>
+<li>Customer deaths if they get food that has been spoiled by being on the counter for too long, or if the food item contains an ingredient that the customer is allergic to.</li>
+<li>Overhead pop-up system when the a pays for their meal / gives reputation.</li>
+<li>Some simple shaders (blood shader &amp; food spilled on floor).</li>
 </ul>
 <p>Link to github repo: <a href="https://github.com/alvolex/GP2Team10">https://github.com/alvolex/GP2Team10</a></p>
-<p> </p>
-<p> </p>
+<p></p>
 
 
-<figure class="wp-block-gallery has-nested-images columns-default is-cropped"></figure>
+<div class="wp-block-columns">
+<div class="wp-block-column" style="flex-basis:100%">
+<div class="wp-container-623611837fee3 wp-block-group"><div class="wp-block-group__inner-container">		<div class="embedpress-gutenberg-wrapper">
+			<div class="wp-block-embed__wrapper aligncenter">
+				<div class="ose-imgur ose-uid-b37fdab59e5e10a04247fc5d2efacbe1 ose-embedpress-responsive" style="width:600px; max-width:100%; height: auto; display:inline-block;"><blockquote class="imgur-embed-pub" lang="en" data-id="BHtzm1r"><a href="https://imgur.com/BHtzm1r">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></div>			</div>
+		</div>
+		</div></div>
+</div>
+</div>
+
+
+		<div class="embedpress-gutenberg-wrapper">
+			<div class="wp-block-embed__wrapper aligncenter">
+				<div class="ose-imgur ose-uid-c75d550de75d831d1763bb33dc42be65 ose-embedpress-responsive" style="width:600px; max-width:100%; height: auto; display:inline-block;"><blockquote class="imgur-embed-pub" lang="en" data-id="9Ohk0wS"><a href="https://imgur.com/9Ohk0wS">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></div>			</div>
+		</div>
+		]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Space Snake with A* Pathfinding</title>
+		<link>/portfolio/luke-in-the-house-of-jelly-radio-fenzes-6/</link>
+		
+		<dc:creator><![CDATA[alvolex]]></dc:creator>
+		<pubDate>Thu, 17 Mar 2022 17:51:18 +0000</pubDate>
+				<guid isPermaLink="false">http://rarathemesdemo.com/perfect-portfolio/?post_type=rara-portfolio&#038;p=42</guid>
+
+					<description><![CDATA[In this small project where I implemented A* Pathfinding to create a Snake-like game where the spaceship will find the shortest path on a grid to the goal and then also make sure to avoid it&#8217;s own &#8220;tail&#8221;. Other than the A* pathfinding I also implemented my own custom Linked List class that is responsible &#8230; ]]></description>
+										<content:encoded><![CDATA[<p>In this small project where I implemented A* Pathfinding to create a Snake-like game where the spaceship will find the shortest path on a grid to the goal and then also make sure to avoid it&#8217;s own &#8220;tail&#8221;.</p>
+<p>Other than the A* pathfinding I also implemented my own custom Linked List class that is responsible for moving the tail whenever the head move.</p>
+<p>Link to repo: <a href="https://github.com/alvolex/LinkedListSnake">github.com/alvolex/LinkedListSnake</a></p>
+<p>Below is a image of the game, a visualization of the pathfinding in action and a gif of how it looks when running!</p>
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<figure class="wp-block-gallery has-nested-images columns-2 is-cropped">
+<figure class="wp-block-image size-large"><img width="1024" height="576" data-id="600"  src="/wp-content/uploads/2022/03/SpaceSnakeAStarGif-1024x576.gif" alt="" class="wp-image-600" srcset="/wp-content/uploads/2022/03/SpaceSnakeAStarGif-1024x576.gif 1024w, /wp-content/uploads/2022/03/SpaceSnakeAStarGif-300x169.gif 300w, /wp-content/uploads/2022/03/SpaceSnakeAStarGif-768x432.gif 768w, /wp-content/uploads/2022/03/SpaceSnakeAStarGif-1536x864.gif 1536w, /wp-content/uploads/2022/03/SpaceSnakeAStarGif-107x60.gif 107w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<figure class="wp-block-image size-full is-style-default"><img loading="lazy" width="888" height="533" data-id="602"  src="/wp-content/uploads/2022/03/AStarVisualization.png" alt="" class="wp-image-602" srcset="/wp-content/uploads/2022/03/AStarVisualization.png 888w, /wp-content/uploads/2022/03/AStarVisualization-300x180.png 300w, /wp-content/uploads/2022/03/AStarVisualization-768x461.png 768w, /wp-content/uploads/2022/03/AStarVisualization-100x60.png 100w" sizes="(max-width: 888px) 100vw, 888px" /></figure>
+</figure>
+
+
+
+<div class="wp-block-columns are-vertically-aligned-top">
+<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:100%">		<div class="embedpress-gutenberg-wrapper">
+			<div class="wp-block-embed__wrapper aligncenter">
+				<div class="ose-imgur ose-uid-e465e1898d1ad69aae591167e386a8d8 ose-embedpress-responsive" style="width:900px; max-width:100%; height: auto; display:inline-block;"><blockquote class="imgur-embed-pub" lang="en" data-id="a/JiZJrC7"><a href="https://imgur.com/a/JiZJrC7">Space Snake AStar</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></div>			</div>
+		</div>
+		</div>
+</div>
+
+
+
+<p></p>
 ]]></content:encoded>
 					
 		
