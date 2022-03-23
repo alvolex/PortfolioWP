@@ -12,13 +12,21 @@
 	<atom:link href="/portfolio-category/game-programming/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Alex&#039;s Portfolio</description>
-	<lastBuildDate>Sat, 19 Mar 2022 15:53:25 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 23 Mar 2022 13:14:13 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.9.1</generator>
+
+<image>
+	<url>/wp-content/uploads/2022/03/cropped-logo_transparent-1-1-32x32.png</url>
+	<title>Game Programming &#8211; Welcome to my site!</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
 	<item>
 		<title>Moon Rock Café</title>
 		<link>/portfolio/moon-rock-cafe/</link>
@@ -52,7 +60,7 @@
 
 <div class="wp-block-columns">
 <div class="wp-block-column" style="flex-basis:100%">
-<div class="wp-container-623611837fee3 wp-block-group"><div class="wp-block-group__inner-container">		<div class="embedpress-gutenberg-wrapper">
+<div class="wp-container-623b28ebb693f wp-block-group"><div class="wp-block-group__inner-container">		<div class="embedpress-gutenberg-wrapper">
 			<div class="wp-block-embed__wrapper aligncenter">
 				<div class="ose-imgur ose-uid-b37fdab59e5e10a04247fc5d2efacbe1 ose-embedpress-responsive" style="width:600px; max-width:100%; height: auto; display:inline-block;"><blockquote class="imgur-embed-pub" lang="en" data-id="BHtzm1r"><a href="https://imgur.com/BHtzm1r">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></div>			</div>
 		</div>
@@ -72,7 +80,7 @@
 			</item>
 		<item>
 		<title>Space Snake with A* Pathfinding</title>
-		<link>/portfolio/luke-in-the-house-of-jelly-radio-fenzes-6/</link>
+		<link>/portfolio/space-snake-with-a-pathfinding/</link>
 		
 		<dc:creator><![CDATA[alvolex]]></dc:creator>
 		<pubDate>Thu, 17 Mar 2022 17:51:18 +0000</pubDate>
@@ -111,6 +119,51 @@
 
 <p></p>
 ]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>UnityCraft (Minecraft Clone)</title>
+		<link>/portfolio/unitycraft-minecraft-clone/</link>
+		
+		<dc:creator><![CDATA[alvolex]]></dc:creator>
+		<pubDate>Wed, 23 May 2018 07:54:55 +0000</pubDate>
+				<guid isPermaLink="false">http://rarathemesdemo.com/perfect-portfolio/?post_type=rara-portfolio&#038;p=40</guid>
+
+					<description><![CDATA[This is a solo project that mimics a lot of what MineCraft does, it&#8217;s a voxel-world that is generated using procedural generation, namely using several Fractional Brownian Motions (FBM&#8217;s) for generation and 3D FBM&#8217;s to generate cave systems. To get good frame rates in the game the generator is not using any primitives for generating &#8230; ]]></description>
+										<content:encoded><![CDATA[<p>This is a solo project that mimics a lot of what MineCraft does, it&#8217;s a voxel-world that is generated using procedural generation, namely using several Fractional Brownian Motions (FBM&#8217;s) for generation and 3D FBM&#8217;s to generate cave systems.</p>
+<p>To get good frame rates in the game the generator is not using any primitives for generating the world, instead it&#8217;s building the blocks out of quads. This way we can also combine all the blocks in a chunk to be a single mesh and any quad that isn&#8217;t visible will not be rendered.</p>
+
+		<div class="embedpress-gutenberg-wrapper">
+			<div class="wp-block-embed__wrapper aligncenter">
+				<div class="ose-imgur ose-uid-9ecdc7b82c2ee35b7202599470b33881 ose-embedpress-responsive" style="width:600px; max-width:100%; height: auto; display:inline-block;"><blockquote class="imgur-embed-pub" lang="en" data-id="4Nt1Zuk"><a href="https://imgur.com/4Nt1Zuk">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></div>			</div>
+		</div>
+		
+
+
+<p>As seen in the start of the above gif we can see the different FBM&#8217;s that are responsible for the different layers in the world. It&#8217;s very easy to add more layers and the layers can overlap eachother. For instance, the bottom two FBM&#8217;s are the points in which diamond can spawn.</p>
+
+
+
+<p>Here is the generation in action, each chunk contains the data for 1000 blocks, and in this example we generate 10x5x10 blocks.</p>
+
+
+		<div class="embedpress-gutenberg-wrapper">
+			<div class="wp-block-embed__wrapper aligncenter">
+				<div class="ose-imgur ose-uid-c244b2c2f11e9262758e2c2f44aff0e8 ose-embedpress-responsive" style="width:600px; max-width:100%; height: auto; display:inline-block;"><blockquote class="imgur-embed-pub" lang="en" data-id="PEsALZz"><a href="https://imgur.com/PEsALZz">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></div>			</div>
+		</div>
+		
+
+
+<p>Moving around in the world</p>
+
+
+		<div class="embedpress-gutenberg-wrapper">
+			<div class="wp-block-embed__wrapper aligncenter">
+				<div class="ose-imgur ose-uid-47a7b38c17573886f045bc39825bcc0c ose-embedpress-responsive" style="width:600px; max-width:100%; height: auto; display:inline-block;"><blockquote class="imgur-embed-pub" lang="en" data-id="F3RH6I4"><a href="https://imgur.com/F3RH6I4">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></div>			</div>
+		</div>
+		]]></content:encoded>
 					
 		
 		
