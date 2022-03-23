@@ -12,7 +12,7 @@
 	<atom:link href="/portfolio-category/procedural-generation/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Alex&#039;s Portfolio</description>
-	<lastBuildDate>Wed, 23 Mar 2022 13:14:13 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 23 Mar 2022 15:34:17 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -53,9 +53,15 @@
 <p>Here is the generation in action, each chunk contains the data for 1000 blocks, and in this example we generate 10x5x10 blocks.</p>
 
 
+
+<div class="wp-block-columns">
+<div class="wp-block-column" style="flex-basis:100%"></div>
+</div>
+
+
 		<div class="embedpress-gutenberg-wrapper">
 			<div class="wp-block-embed__wrapper aligncenter">
-				<div class="ose-imgur ose-uid-c244b2c2f11e9262758e2c2f44aff0e8 ose-embedpress-responsive" style="width:600px; max-width:100%; height: auto; display:inline-block;"><blockquote class="imgur-embed-pub" lang="en" data-id="PEsALZz"><a href="https://imgur.com/PEsALZz">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></div>			</div>
+				<div class="ose-giphy ose-uid-7ac248c6c37a28e4df48b52f83fef9f3 ose-embedpress-responsive" style="width:600px; max-width:100%; height: auto; display:inline-block;"><div class="giphy-oembed"><img class="giphy" src="https://media2.giphy.com/media/vC6WGr97AgtdbGFjrS/giphy.gif" style="width:100%;height:auto;" alt="" title=""></div></div>			</div>
 		</div>
 		
 
@@ -67,7 +73,11 @@
 			<div class="wp-block-embed__wrapper aligncenter">
 				<div class="ose-imgur ose-uid-47a7b38c17573886f045bc39825bcc0c ose-embedpress-responsive" style="width:600px; max-width:100%; height: auto; display:inline-block;"><blockquote class="imgur-embed-pub" lang="en" data-id="F3RH6I4"><a href="https://imgur.com/F3RH6I4">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></div>			</div>
 		</div>
-		]]></content:encoded>
+		
+
+
+<p></p>
+]]></content:encoded>
 					
 		
 		
